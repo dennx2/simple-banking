@@ -15,7 +15,7 @@ const color = function(texts) {
 // add content to personal-investment page
 // stock listing section
 const getStock = function() {
-    $.getJSON('/../json/stocks.json', function(data){
+    $.getJSON('/simple-banking/json/stocks.json', function(data){
         console.log(data);
         $.each(data.stock, (key, value) => {
             $('#stocklst').append(`
@@ -33,7 +33,7 @@ const getStock = function() {
 // add content to personal-investment page
 // buy/sell advisory section
 const getIndicator = function() {
-    $.getJSON('/../json/stocks.json', function(data){
+    $.getJSON('/simple-banking/json/stocks.json', function(data){
         console.log(data);
         $.each(data.stock, (key, value) => {
             $('#indicator').append(`
