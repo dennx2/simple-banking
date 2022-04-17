@@ -1,45 +1,4 @@
-/* ---------------------------------------------------------|
-|------------------------overall style for html-------------|
-|---------------------------------------------------------- */
 
-html {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #396EB0;
-}
-body {
-    font-size: 100%;
-    /* min-width: 920px; */
-    background-color: white;
-    margin: 0 auto;
-}
-
-
-/* ---------------------------------------------------------|
-|------------style for header-------------------------------|
-|---------------------------------------------------------- */
-
-.cmnHead {
-    /* border: red solid 2px; */
-    /* padding: 2px; */
-    background-color: #2E4C6D;
-    /* margin: 0 auto; */
-    color: white;
-    /* width: auto; */
-    height: 90px;
-    padding-top: 20px;
-    padding-left: 40px;
-}
-
-.cmnHead img {
-    width: 75px;
-    float: left;
-}
-
-.cmnHead p {
-    font-size: 1.5em;
-    font-weight: 600;
-    margin-left: 100px;
-}
 
 
 /* ---------------------------------------------------------|
@@ -79,120 +38,6 @@ main {
     
 }
 
-/* ---------------------------------------------------------|
-|------------------------navigatoin menu--------------------|
-|---------------------------------------------------------- */
-
-
-/* 
-** formatting the look 
-*/
-#cmnNav * {
-    margin: 0;
-    padding: 0;
-
-    /* box-sizing: border-box; */
-}
-
-#cmnNav a {
-    color: black;
-    background-color: #DADDFC;
-    display: block;
-    height: 2.5em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    height: 50px;
-}
-
-#cmnNav a:hover {
-    background-color: #2E4C6D;
-    color: white;
-}
-
-#cmnNav ul {
-    list-style-type: none;
-    display: flex;
-}
-
-#cmnNav li {
-    width: 100%;
-    text-align: center;
-    position: relative;
-}
-
-/* 
-** dropdown function 
-*/
-#cmnNav li:hover .submenu1 > li {
-    display: block;
-    top: 0px;
-}
-
-.submenu1 li {
-    display: none;
-    /* position: absolute;
-    top: 0px; */
-}
-
-.submenu1 {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: 100%;
-}
-
-/* .submenu1 li {
-    position: relative;
-} */
-
-.submenu1 li:hover .submenu2 li {
-    display: block;
-}
-
-.submenu2 li {
-    display: none;
-}
-
-.submenu2 {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 0px;
-    left: 100%;
-    width: 100%;
-}
-
-
-/* ---------------------------------------------------------|
-|------------------------footer-----------------------------|
-|---------------------------------------------------------- */
-
-/* copy from temp */
-
-#bottom{
-    background-image: linear-gradient(#2E4C6D, #06284d);
-    text-align: center;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    width:100%;
-    margin-bottom: 0;
-    padding: 2px;
-}
-.highfooter{
-    width: 60%;
-    margin: 0 auto;
-    padding: 15px 0;
-    display: grid;
-    border-radius: 15px;
-    grid-template-columns: auto auto auto;
-
-}
-.highfooter p{
-    padding: 5px;
-}
 
 
 /* ---------------------------------------------------------|
@@ -450,37 +295,23 @@ main {
 |--------style for screen width less than 920px------------|
 |--------------------------------------------------------- */
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 420px) {
 
-    /* general */
+    /* -------------- main ----------------*/
     h1 {
         font-size: 150%;
     }
 
-    /* main {
+    /* change h2 line height */
+    h2 {
+        line-height: 1.5em;
+    }
+
+    main {
         width: 80%;
-    } */
-
-    .cmnHead p {
-        font-size: 1.2em;
     }
 
-    /* mobile style for navigation */
-    #nav {
-      flex-direction:row;
-      justify-content:space-between;
-
-    }
-
-
-
-
-
-
-
-
-
-
+    /* ------------- homepage -------------- */
     /* style for banner */
     .banner {
         height: auto;
@@ -506,7 +337,7 @@ main {
     }
 
     .aboutus2 {
-        width: 100%;
+        width: 80%;
     }
 
     /* mobile style for job opportunities */
@@ -519,13 +350,13 @@ main {
         align-items: center;
     }
 
-    /* mobile style for personal investment page*/
+    /* --------------- personal investment page ---------------*/
     .list-company {
         display: grid;
         grid-template: auto / repeat(2, 1fr);
     }
 
-    /* mobile stype for company insights page */
+    /* --------------- company insights page ---------------- */
     /* change grid layout for price chart and table */
     .chart-table {
         grid-template: auto / 1fr;
@@ -544,3 +375,4 @@ main {
     } 
 
 }
+
