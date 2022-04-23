@@ -1,3 +1,36 @@
+# Tasks for main contents
+
+## My Part
+### home.html
+- [x] feature 1 html
+- [x] feature 1 css
+- [x] feature 1 css responsive
+- [x] feature 1 javascript
+
+**Feature** Added a rollover function on the picture in about us section.
+
+**Link** [https://dennx2.github.io/simple-banking/](https://dennx2.github.io/simple-banking/)
+
+### personal-intestment.html
+- [x] feature 2 html
+- [x] feature 2 css
+- [x] feature 2 css responsive
+- [x] feature 2 javascript
+
+**Feature** I put stock's data in a JSON file, and then use JavaScript to pull the data out. Added some coloring before populating them on the webpage.
+
+**Link** [https://dennx2.github.io/simple-banking/personal-investment.html](https://dennx2.github.io/simple-banking/personal-investment.html)
+
+### company-insights.html
+- [x] feature 3 html
+- [x] feature 3 css
+- [x] feature 3 css responsive
+- [x] feature 3 javascript
+
+**Feature** Added a subscription form with input validation at the bottom of the page.
+
+**Link** [https://dennx2.github.io/simple-banking/company-insights.html](https://dennx2.github.io/simple-banking/company-insights.html)
+
 # Tasks for header, nav, footer
 
 ## Tasks overall
@@ -27,25 +60,9 @@
 - [] 
 - [] 
 
+# Tasks for main contents
 
-# Tasks for main contents (add more tasks yourself)
-
-## Jaydenn (Ching-Ting Chang)
-### home.html
-- [x] feature 1 html
-- [x] feature 1 css
-- [x] feature 1 css responsive
-- [x] feature 1 javascript: rollover picture on about us section
-### personal-intestment.html
-- [x] feature 2 html
-- [x] feature 2 css
-- [x] feature 2 css responsive
-- [x] feature 2 javascript: populate the stock cards with json and js. Also color some text automatically.
-### company-insights.html
-- [x] feature 3 html
-- [x] feature 3 css
-- [x] feature 3 css responsive
-- [x] feature 3 javascript: a subcription form at the bottom of the page
+## Other's Part
 
 ## Edwina
 - [contact-us] 
